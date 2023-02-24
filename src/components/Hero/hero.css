@@ -29,13 +29,13 @@
   justify-content: center;
   align-items: center;
   padding: 0px;
-  gap: 16px;
+  gap: 1rem;
   color: white;
 
-  width: 723px;
-  height: 199px;
-  margin-left: 358px;
-  margin-top: 206px;
+  width: 45.1875rem;
+  height: 12.4375rem;
+  margin-left: 22.375rem;
+  margin-top: 12.875rem;
 }
 .h1home {
   width: 723px;
