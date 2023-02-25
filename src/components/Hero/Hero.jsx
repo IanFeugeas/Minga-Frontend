@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.css";
 
+
 function Hero(props) {
   return (
     <section className="hero-box">
@@ -22,3 +23,5 @@ function Hero(props) {
 }
 
 export default Hero;
+
+
