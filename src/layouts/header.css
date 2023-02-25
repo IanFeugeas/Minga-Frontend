@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.8rem 0rem 2.8rem;
+}
+.menuhamburguesa {
+  width: 3.4375rem;
+  height: 3.4375rem;
+}
+.logo {
+  width: 6rem;
+  height: 3.5625rem;
+}
