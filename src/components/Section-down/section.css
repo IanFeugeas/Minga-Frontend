@@ -7,15 +7,6 @@
   min-height: 40vh;
   width: 100%;
   padding: 3.1rem 10%;
-
-  /* width: 78.6rem;
-  height: 19.1rem;
-  margin: 1.1rem 5.6rem 3.7rem 5.6rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: linear-gradient(87.46deg, #4338ca 0%, #5e52f3 100%);
-  border-radius: 6px; */
 }
 .rectangle {
   display: grid;
@@ -48,7 +39,7 @@
   gap: 0.6rem;
   width: 22.2rem;
   height: 7.1rem;
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 #h2sectiondown {
   width: 205px;

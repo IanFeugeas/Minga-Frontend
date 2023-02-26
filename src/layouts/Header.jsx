@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 
-function NavBar(props) {
+function Header(props) {
   return (
     <div className="navbar">
       <section className="menuhamburguesa">
@@ -14,4 +14,4 @@ function NavBar(props) {
   );
 }
 
-export default NavBar;
+export default Header;
