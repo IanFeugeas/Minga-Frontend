@@ -28,16 +28,41 @@
 }
 .divImage {
   width: 50%;
-  height: 1024px;
+
 }
 .imgback {
   width: 100%;
-  object-fit: contain;
+  height: 1024px;
+
 }
 
 @media (max-width: 750px) {
   .background {
     background-image: url(/public/images/background-home-media.png);
     min-height: 100vh;
+  }
+}
+@media (max-width: 960px){
+  .secondView {
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+  }
+  .divImage {
+    display: none;
+  }
+}
+
+@media (max-width:720px) {
+  
+  .secondView {
+    width: 100%;
+    
+    display: flex;  
+    justify-content: center;
+    
+  }
+  .conteinerForm {
+    width: 30rem;
   }
 }
