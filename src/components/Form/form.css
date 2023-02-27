@@ -1,0 +1,172 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 4rem;
+    width: 100%;
+    }
+
+.formRegister{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10%;
+}
+    
+.formRegister>div{
+    margin: 25px 360px;
+    }
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+    gap: 22px;
+    margin: 0 136px;
+    margin-bottom: 183px;
+    
+}
+.form fieldset {
+    width: 100%;
+    height: 48px;
+    background: #EBEBEB;
+    border: 1px solid rgba(31, 31, 31, 0.5);
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.form fieldset legend {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    background: #4338CA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 15px;
+    padding-bottom: 3px;
+    text-align:end;
+}
+.form fieldset input {
+    border: none;
+    background: none;
+    width: 90%;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 0.4rem;
+
+}
+.form .checkbox{
+    border: none;
+    background-color: white;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    height: auto;
+}
+.form .checkbox input{
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    border: 1px solid #1F1F1F;
+    border-radius: 5px;
+}
+.form .checkbox label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #1F1F1F;
+}
+.form .signup{
+    width: 384px;
+    height: 48px;
+    background: #4338CA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBEBEB;
+    letter-spacing: 0.05em;
+    box-shadow: 5px 5px rgb(244, 179, 51);
+    text-decoration: none;
+    margin: 0 auto;
+}
+.form .google{
+    width: 384px;
+    height: 48px;
+    background: #EBEBEB;
+    border: 1px solid #1F1F1F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.form .google span{
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1F1F1F;
+}
+.form>p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+.form>p .ancor{
+    text-decoration: none;
+    color: #4338CA; 
+    font-weight: bold;
+}
+
+
+@media (max-width: 1024px){
+    .formRegister {
+        
+        margin-top: 30%;
+    }
+    .form fieldset {
+        width: 100%;
+       
+    }
+    .form .signup{
+        width: 100%;
+    }
+    
+    .form .google{
+    width: 270px;
+}
+.conteiner{
+    padding-top: 100px;
+}
+ }
+
+@media (max-width: 660px){
+
+    .form fieldset {
+        width: 100%;
+       
+    }
+    .form .signup{
+        width: 100%;
+    }
+    
+    .form .google{
+    width: 270px;
+}
+
+}
