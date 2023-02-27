@@ -1,24 +1,18 @@
-import React from "react";
-import "./hero.css";
+import React from 'react'
+import "./hero.css"
+import Header from "../Header/Header.jsx"
+import Sectionup from "../Sectionup/Sectionup.jsx"
+import Section from "../Section-down/Section.jsx"
 
-function Hero(props) {
+export default function Hero() {
   return (
-    <section className="hero-box">
-      <div>
-        <h1 className="h1home">Your favorite comic book store ✨ </h1>
-      </div>
-      <div>
-        <p className="phome">
-          Explore our catalog to live the adventure of your life
-        </p>
-      </div>
-      <div>
-        <button className="buttomHome">
-          <p className="textbtn">Let's go!</p>
-        </button>
-      </div>
-    </section>
-  );
+    <div>
+        <div className="back-image">
+            <Header/>
+            <Sectionup/>
+        </div>
+        <Section/>
+    </div>
+  )
 }
 
-export default Hero;

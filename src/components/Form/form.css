@@ -1,9 +1,3 @@
-.conteiner{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    gap: 4rem;
-    width: 100%;
-    }
 
 .formRegister{
     display: flex;
