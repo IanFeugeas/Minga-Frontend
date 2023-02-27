@@ -28,10 +28,12 @@
 }
 .divImage {
   width: 50%;
+
 }
 .imgback {
   width: 100%;
   height: 1024px;
+
 }
 
 @media (max-width: 750px) {

@@ -1,13 +1,14 @@
 import React from "react";
 import "./form.css";
 import Welcome from "../Welcome-form/Welcome";
-import Inputimage from "../Image-input/Inputimage";
+
 
 export default function Form() {
   return (
     <div className="conteiner">
       <div className="formRegister">
         <Welcome />
+
         <form className="form" id="formulario">
           <fieldset>
             <legend>Name</legend>
@@ -67,6 +68,7 @@ export default function Form() {
           </p>
         
         </form>
+
       </div>
     </div>
   );
