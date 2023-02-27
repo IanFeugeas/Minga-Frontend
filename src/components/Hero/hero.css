@@ -1,91 +1,16 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-.hero-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 16px;
-  color: #ffffff;
-  margin-top: 5rem;
-}
-
-.h1home {
-  width: 723px;
-  height: 56px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  display: flex;
-  align-items: center;
-
-  color: #ffffff;
-}
-.phome {
-  width: 456px;
-  height: 56px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #ffffff;
-}
-.buttomHome {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
-  gap: 10px;
-  color: #ffffff;
-  border: none;
-  width: 240px;
-  height: 55px;
-
-  /* gradient */
-
-  background: linear-gradient(87.46deg, #4338ca 0%, #5e52f3 100%);
-  border-radius: 6px;
-}
-.textbtn {
-  width: 90px;
-  height: 23px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 95.19%;
-  /* identical to box height, or 23px */
-
-  display: flex;
-  align-items: center;
-}
-
-@media (max-width: 750px) {
-  .hero-box {
+.back-image {
+    background-image: url(/public/images/branden-skeli-kQ0_flbwBI4-unsplash\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 17%;
     width: 100%;
+    min-height: 70vh;
+    object-fit: cover;
   }
-  .h1home {
-    width: 90%;
-    text-align: center;
-    font-size: 35px;
-  }
-  .phome {
-    width: 90%;
-    text-align: center;
+
+  @media (max-width: 750px){
+  .back-image {
+    background-image: url(/public/images/branden-skeli-kQ0_flbwBI4-unsplash\ 2.png);
+    min-height: 100vh;
   }
 }
